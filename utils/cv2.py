@@ -1,4 +1,4 @@
-from cv2 import cv2
+import cv2
 
 def rgb2bgr(image):
     return image[:, :, [2, 1, 0]]

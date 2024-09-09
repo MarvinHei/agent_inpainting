@@ -78,7 +78,7 @@ data_shared_params: &data_shared_params
   epic_hdf5_root: ${oc.env:EPIC_ROOT}
   data_root: ${oc.env:DATA_LOCATION}
   frame_skip: 36
-  num_frames: 4
+  num_frames: 20
   size: 256
   mask_size: [64,64]
   hand_mask_rate: 1
